@@ -1,0 +1,42 @@
+.additional-languages-container {
+    display: inline-block;
+}
+
+.language-select-container {
+    padding: 15px;
+    display: inline-block;
+    text-align: left;
+}
+
+.language-select-label {
+    padding: 5px;
+}
+
+.language-select {
+    font-size: 15px;
+}
+
+.text-to-translate-input {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.app-logo {
+    height: 215px;
+    width: auto;
+}
+
+.add-language-container {
+    display: inline-block;
+}
+
+.page-spinner-container {
+    padding: 100px;
+}
+
+.limit-exceeded-container {
+    width: 500px;
+    display: inline-block;
+}

@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ScaleMySoccerFieldWebsite"
+s3_prefix = "ScaleMySoccerFieldWebsite"
+region = "us-east-1"
+profile = "itg"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "S3StaticWebsiteBucketNameParameter=\"scalemysoccerfield.com\" DomainNameParameter=\"scalemysoccerfield.com\" HostedZoneNameParameter=\"scalemysoccerfield.com.\""
